@@ -2,6 +2,7 @@ package com.driver.models;
 
 public class Director
 {
+
     private String name;
     private int numberOfMovies;
     private double imdbRating;

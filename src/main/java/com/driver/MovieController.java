@@ -77,8 +77,8 @@ public class MovieController {
     }
 
     @DeleteMapping("/delete-all-directors")                                                     // 9th API - Done
-    public ResponseEntity<String> deleteAllDirector(){
-        String ans = movieService.deleteAllDirector();
+    public ResponseEntity<String> deleteAllDirectors(){
+        String ans = movieService.deleteAllDirectors();
         return new ResponseEntity<>(ans,HttpStatus.CREATED);
     }
 
